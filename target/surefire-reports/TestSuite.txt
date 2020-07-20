@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 4, Errors: 0, Skipped: 10, Time elapsed: 116.779 s <<< FAILURE! - in TestSuite
+LogoImageTest(com.InternalProject.qa.test.MainTest)  Time elapsed: 33.05 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DELL-3490-SIDDH', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=C:\Users\Sid\AppData\Local\Temp\scoped_dir12136_1042432548}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50202}, acceptInsecureCerts=false, browserVersion=84.0.4147.89, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: bd7903e1b0860d5f7b5fcf2bb74ce752
+*** Element info: {Using=xpath, value=//*[@id='header']/div[1]/div/aside/div[1]/a[3]}
+	at com.InternalProject.qa.test.MainTest.LogoImageTest(MainTest.java:122)
+
+signIn1(com.InternalProject.qa.test.MainTest)  Time elapsed: 1.11 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+element click intercepted: Element <a href="https://accounts.hindustantimes.com/?type=plain&amp;ref=lm" onclick="webengage.track('Click',  {'buttonName': 'Home_Tab_Login'});" class="userSignin">...</a> is not clickable at point (1187, 325). Other element would receive the click: <iframe title="notification-frame-~1971585b0" name="notification-frame-~1971585b0" id="webklipper-publisher-widget-container-notification-frame" frameborder="0" marginheight="0" marginwidth="0" style="display: block; z-index: 16776272; position: fixed; visibility: visible; height: 100%; width: 100%; top: 0px; left: 0px; right: auto;" data-notification-layout-id="~184fc0b7" data-notification-layout-name="modal"></iframe>
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DELL-3490-SIDDH', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=C:\Users\Sid\AppData\Local\Temp\scoped_dir12136_1042432548}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50202}, acceptInsecureCerts=false, browserVersion=84.0.4147.89, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: bd7903e1b0860d5f7b5fcf2bb74ce752
+	at com.InternalProject.qa.test.MainTest.signIn1(MainTest.java:134)
+
+loginWithOTP(com.InternalProject.qa.test.MainTest)  Time elapsed: 15.839 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.InternalProject.qa.test.MainTest.loginWithOTP(MainTest.java:147)
+
+checkResults(com.InternalProject.qa.test.MainTest)  Time elapsed: 17.856 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.5.2', revision: '10229a9', time: '2017-08-21T17:29:55.15Z'
+System info: host: 'DELL-3490-SIDDH', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}), userDataDir=C:\Users\Sid\AppData\Local\Temp\scoped_dir12136_1042432548}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:50202}, acceptInsecureCerts=false, browserVersion=84.0.4147.89, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: bd7903e1b0860d5f7b5fcf2bb74ce752
+	at com.InternalProject.qa.test.MainTest.checkResults(MainTest.java:267)
+
