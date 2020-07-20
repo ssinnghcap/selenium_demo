@@ -56,6 +56,7 @@ public class BaseClass {
 
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--start-maximized");
+		options.addArguments("--disable-notifications");
 	 
 		 driver = new ChromeDriver(options);		 
 	

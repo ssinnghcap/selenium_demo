@@ -145,7 +145,7 @@ public class MainTest extends BaseClass {
 		driver1 = LoginPage.driver;
 		
 		loginPage.login1(username, password, expTitle);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 				
 	}		
 	
@@ -216,6 +216,7 @@ public class MainTest extends BaseClass {
 					
 	}
 	
+	/*
 	@Test(priority = 11, dataProvider = "getTestData")
 	
 	public void loginWithFacebook(String username, String password, String usernameFB, String passwordFB, String expTitle) throws InterruptedException {		
@@ -225,7 +226,7 @@ public class MainTest extends BaseClass {
 		driver1 = LoginPage.driver;
 		
 		loginPage.login2(usernameFB, passwordFB);
-		Thread.sleep(15000);
+		Thread.sleep(5000);
 				
 	}
 	
@@ -251,7 +252,7 @@ public class MainTest extends BaseClass {
 				
 	}
 	
-		
+	*/	
 		
 	
 	@AfterMethod(alwaysRun = true) //It will run after each test method execution

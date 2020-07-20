@@ -34,7 +34,7 @@ public class LandingPage extends BaseClass {
 	
 	public Boolean validateLogoImage() throws InterruptedException {		
 		
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		return sitelogo.isDisplayed();
 		
 	}
@@ -42,7 +42,7 @@ public class LandingPage extends BaseClass {
 	public LoginPage signIn() throws InterruptedException {		
 		
 		signin.click();
-		Thread.sleep(3000);	
+		Thread.sleep(2000);	
 		return new LoginPage();
 		
 	}

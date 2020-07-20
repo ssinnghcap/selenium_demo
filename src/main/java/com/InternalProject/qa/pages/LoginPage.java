@@ -76,17 +76,17 @@ public class LoginPage extends BaseClass {
 	@FindBy (xpath = "//*[@id='fixedNav_popular']")
 	WebElement trendingLink;
 		
-	@FindBy (xpath = "//*[@id='bookmark_11595128250156']")
+	@FindBy (xpath = "//*[@id='bookmark_11595210906103']")
 	WebElement bookmarkIcon;
 	
-	@FindBy (xpath = "//*[@id='bookmark_11595128250156']")
+	@FindBy (xpath = "//*[@id='bookmark_11595210906103']")
 	WebElement bookmarkIconInsideReads;
 	
 	@FindBy (xpath = "//*[@id='fixedNav_myreads']")
 	
 	WebElement myReadsLink;
 	
-	@FindBy (xpath = "//*[@id='bm_11595128250156']/div/div/h2/a")
+	@FindBy (xpath = "//*[@id='bm_11595210906103']/div/div/h2/a")
 	WebElement bookmarkedLinkUnderMyReads;
 	
 		
@@ -131,7 +131,7 @@ public class LoginPage extends BaseClass {
 	    
 	        }
 		
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		return 	helloLink.isDisplayed();
 		
 	}
@@ -140,10 +140,10 @@ public class LoginPage extends BaseClass {
 	public void bookmarkPage() throws InterruptedException {	
 		
 		trendingLink.click();
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 		bookmarkIcon.click();		
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 	}
 	
 	
@@ -168,10 +168,10 @@ public class LoginPage extends BaseClass {
 		//Bring the ribbon icon in page focus 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,200)");
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		
 		bookmarkIcon.click();	
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 	}
 	
@@ -207,7 +207,7 @@ public class LoginPage extends BaseClass {
 	public LandingPage logOut () throws InterruptedException {		
 	
 		sitelogo.click();
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 			
 		logOut.click();
 		return new LandingPage();				
@@ -218,7 +218,7 @@ public LandingPage logOutFB () throws InterruptedException {
 	
 		sitelogo.click();
 		
-		Thread.sleep(6000);
+		Thread.sleep(2000);
 			
 		logOut.click();
 		Thread.sleep(2000);
