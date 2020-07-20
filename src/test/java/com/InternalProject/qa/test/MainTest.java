@@ -187,7 +187,7 @@ public class MainTest extends BaseClass {
 	
 	public void removeBookmark() throws InterruptedException {		
 		
-		test = extent.createTest("Remove bookmark");
+		test = extent.createTest("Remove Bookmark");
 		
 		loginPage.unbookmarkPage();
 				
@@ -198,7 +198,7 @@ public class MainTest extends BaseClass {
 	
 	public void logOutRegular() throws InterruptedException {		
 	
-		test = extent.createTest("Logout - regular");
+		test = extent.createTest("Logout 1");
 		
 		loginPage.logOut();
 				
