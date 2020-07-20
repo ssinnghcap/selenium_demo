@@ -140,7 +140,7 @@ public class LoginPage extends BaseClass {
 	public void bookmarkPage() throws InterruptedException {	
 		
 		trendingLink.click();
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		
 		bookmarkIcon.click();		
 		Thread.sleep(2000);
@@ -150,7 +150,7 @@ public class LoginPage extends BaseClass {
 	public Boolean validateAndOpenBookmarkPage() throws InterruptedException {	
 		
 		myReadsLink.click();
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		
 		Boolean flag = bookmarkedLinkUnderMyReads.isDisplayed(); 	
 		bookmarkedLinkUnderMyReads.click();		

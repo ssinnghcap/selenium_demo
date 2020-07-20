@@ -203,9 +203,11 @@ public class MainTest extends BaseClass {
 		loginPage.logOut();
 				
 	}	
+
+	/*
 	
 	@Test(priority = 10)
-	
+
 	public void signIn2() throws InterruptedException {		
 	
 		test = extent.createTest("Sign in 2");
@@ -216,7 +218,7 @@ public class MainTest extends BaseClass {
 					
 	}
 	
-	/*
+	
 	@Test(priority = 11, dataProvider = "getTestData")
 	
 	public void loginWithFacebook(String username, String password, String usernameFB, String passwordFB, String expTitle) throws InterruptedException {		
