@@ -76,17 +76,17 @@ public class LoginPage extends BaseClass {
 	@FindBy (xpath = "//*[@id='fixedNav_popular']")
 	WebElement trendingLink;
 		
-	@FindBy (xpath = "//*[@id='bookmark_11595210906103']")
+	@FindBy (xpath = "//*[@id='bookmark_11595218418114']")
 	WebElement bookmarkIcon;
 	
-	@FindBy (xpath = "//*[@id='bookmark_11595210906103']")
+	@FindBy (xpath = "//*[@id='bookmark_11595218418114']")
 	WebElement bookmarkIconInsideReads;
 	
 	@FindBy (xpath = "//*[@id='fixedNav_myreads']")
 	
 	WebElement myReadsLink;
 	
-	@FindBy (xpath = "//*[@id='bm_11595210906103']/div/div/h2/a")
+	@FindBy (xpath = "//*[@id='bm_11595218418114']/div/div/h2/a")
 	WebElement bookmarkedLinkUnderMyReads;
 	
 		
